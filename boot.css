@@ -1,0 +1,46 @@
+.dabba {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+}
+.box{
+    border: 5px;
+
+}
+
+.text1{
+    font-family: sans-serif;
+}
+
+/* .newclass{
+    border: 12px solid black;
+} */
+
+#logo1{
+    filter: drop-shadow(0 0 100px
+     rgb(192, 72, 29));
+     animation: cloth 2s alternate infinite;
+}
+
+.border{
+    border: solid black 5px;
+}
+
+@keyframes cloth{
+    0%{
+        filter: drop-shadow(0 0 10px
+     rgb(0, 0, 0));
+
+    }
+
+    100%{
+        filter: drop-shadow(0 0 25px
+     rgb(237, 66, 3));
+
+    }
+}
+#slide1{
+    height: 600px;
+    width: 100%;
+}
